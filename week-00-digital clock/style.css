@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body{
+    background: linear-gradient(#45105518,hsla(160, 61%, 66%, 0.534));
+    
+}
+#clock
+{
+font-size: 5em; margin:0;
+text-align: center;
+font-family: sofia;
+ position: absolute;
+top: 30%;
+Left: 40%;
+transform: translateX(-500%) translateY();
+border-style: dotted dashed solid double;
+color: black;
+border color: #090909;
+}
+#hour{
+    text-decoration:palevioletred;
+    color:black;
+    font-family:sofia;
+    height: 10x;
+    border-style: dotted dashed solid double;
+    text-align: bottom;
+}
+#minute
+{
+    text-decoration:palevioletred;
+    color: black;
+    font-family:Satisfy;
+    height: 10x;
+    border-style:dotted;
+}
+
+#second
+{
+    text-decoration:rgb(128, 112, 216);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 10x;
+    border-style:outset;
+}
+
+div
+{
+    border: 5px solid rgba(128, 15, 0, 0.603);
+}    
+    
+p
+{
+     color:rgb(37, 11, 184);
+     position:relative;
+     left: 0px;
+     top: 250px;
+     text-align-last: center;
+     font-family: sofia;
+     font-size: x-large;
+     text align:right;
+     word spacing:30px;
+     text indent:2000px;
+
+}
+h3{
+    font-family:Satisfy;
+    color:rgb(255, 0, 140);
+    font-size: x-large;
+    text-decoration-line: underline;
+    text-decoration-color: teal;
+}
+ol
+{
+ font-family:Dancing Script;
+ font-size: 25px;
+ color:darkmagenta;
+}
